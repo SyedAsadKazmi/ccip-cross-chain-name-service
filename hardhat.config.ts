@@ -36,7 +36,7 @@ extendEnvironment(async (hre) => {
 
 const config: HardhatUserConfig = {
   solidity: "0.8.19",
-  defaultNetwork: 'ethereumSepolia', // Source Chain
+  defaultNetwork: 'hardhat', // Source Chain
   networks: {
     hardhat: {
       chainId: 31337
